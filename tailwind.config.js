@@ -14,7 +14,10 @@ export default {
 
   theme: {
     extend: {
-      animation: {
+
+
+
+     animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
       },
       keyframes: {
@@ -29,6 +32,11 @@ export default {
           },
         },
       },
+
+ 
+
+
+
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
@@ -50,6 +58,8 @@ export default {
     plugins: [require('daisyui'), addVariablesForColors],
   };
 
+
+  
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
 function addVariablesForColors({ addBase, theme }) {
   let allColors = flattenColorPalette(theme("colors"));

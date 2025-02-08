@@ -2,9 +2,9 @@
 
 export const Footer = () => {
   return (
-    <footer className="footer footer-center  text-base-content ">
+    <footer className="text-white footer footer-center text-base-content">
       <aside>
-        <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+        <p>Copyright © {new Date().getFullYear()} - Todos los derechos reservados </p>
       </aside>
     </footer>
   )
