@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
 @theme {
     --animate-spotlight: spotlight 2s ease .75s 1 forwards;
     @keyframes spotlight {

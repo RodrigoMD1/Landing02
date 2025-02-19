@@ -2,7 +2,9 @@
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
 import { Spotlight } from "../ui/Spotlight";
-import { SobreNosotros } from "../SobreNosotros";
+
+
+
 
 
 
@@ -32,9 +34,9 @@ export const HeroSection = () => {
                 </div>
 
             </div>
-            <div className="flex flex-col items-center justify-start w-full h-full bg-gradient-to-b from-black to-bg-neutral-950 ">
-                <SobreNosotros />
-            </div>
+
+            
+         
             
             
             

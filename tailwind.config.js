@@ -1,4 +1,5 @@
 import { animations } from "motion/react";
+import tailwindcss from '@tailwindcss/vite'
 
 const {
   default: flattenColorPalette,
@@ -6,7 +7,7 @@ const {
 
 
 /** @type {import('tailwindcss').Config} */
-export default {
+export default defineConfig({ 
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -55,8 +56,8 @@ export default {
       }
       },
     },
-    plugins: [require('daisyui'), addVariablesForColors],
-  };
+    plugins: [addVariablesForColors,],
+  });
 
 
   
